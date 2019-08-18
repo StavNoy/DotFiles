@@ -1,0 +1,6 @@
+rofi.theme: /usr/share/rofi/themes/arthur.rasi
+rofi.modi: drun,combi
+rofi.font: DejaVu Sans 16
+rofi.show-icons: true
+rofi.icon-theme: ePapirus
+rofi.combi-modi: window,drun

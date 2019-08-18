@@ -1,0 +1,17 @@
+2019/08/15-16:05:34.608 5763 Reusing MANIFEST /home/snoy/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/08/15-16:05:34.616 5763 Current memtable full; waiting...
+2019/08/15-16:05:34.616 5799 Level-0 table #5: started
+2019/08/15-16:05:34.617 5799 Level-0 table #5: 338 bytes OK
+2019/08/15-16:05:34.619 5799 Delete type=0 #3
+2019/08/15-16:05:34.619 5799 Level-0 table #7: started
+2019/08/15-16:05:34.619 5799 Level-0 table #7: 0 bytes OK
+2019/08/15-16:05:34.622 5799 Delete type=0 #4
+2019/08/15-16:05:34.622 5799 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/08/15-16:05:49.931 5763 Current memtable full; waiting...
+2019/08/15-16:05:49.931 5799 Level-0 table #9: started
+2019/08/15-16:05:49.934 5799 Level-0 table #9: 9116 bytes OK
+2019/08/15-16:05:49.935 5799 Delete type=0 #6
+2019/08/15-16:05:49.936 5799 Level-0 table #11: started
+2019/08/15-16:05:49.936 5799 Level-0 table #11: 0 bytes OK
+2019/08/15-16:05:49.938 5799 Delete type=0 #8
+2019/08/15-16:05:49.938 5799 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
