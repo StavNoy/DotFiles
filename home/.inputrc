@@ -1,0 +1,5 @@
+## Enable Ctrl-arrows
+"\e[1;5D": backward-word
+"\e0d": backward-word
+"\e[1;5C": forward-word
+"\e0c": forward-word

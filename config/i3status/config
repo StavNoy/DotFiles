@@ -9,12 +9,15 @@
 general {
         colors = true
         interval = 5
+        output_format = "i3bar"
 }
 
-order += "battery all"
-order += "tztime local"
+#order += "time clock"
+#order += "time date"
+order += "time"
 order += "memory"
 order += "cpu_usage"
+order += "battery all"
 order += "volume master"
 
 # wireless _first_ {
@@ -29,13 +32,22 @@ order += "volume master"
 #}
 
 battery all {
-        format = "%status %percentage"
+        format = "⚡ %status %percentage"
+        status_chr = "+"
+        status_bat = "-"
+        status_unk = "?"
 	low_threshold= 25
 }
-
-tztime local {
-        format = "%Y-%m-%d %H:%M"
+time {
+    format = "%H:%M | %d/%m"
 }
+#time clock {
+#    format = "%H:%M"
+#}
+#
+#time date {
+#      format = "%Y-%m-%d "
+#}
 
 # load {
 #         format = "%1min"
@@ -48,7 +60,7 @@ tztime local {
 volume master {
     device = "default"
     format = "♪: %volume"
-    format_muted = "♪: 0"
+    format_muted = "♪: M %volume"
     mixer = "Master"
     mixer_idx = 0
 }
